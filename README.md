@@ -114,3 +114,7 @@ It prints the mAP at the end and copies the best weights to `models/best.pt`.
 ## Stack
 
 Python, [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), ByteTrack, OpenCV, PyTorch.
+
+## License
+
+MIT. The dataset and the fine-tuned weights derived from it are under the dataset's CC BY 4.0 terms.
