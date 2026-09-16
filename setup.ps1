@@ -1,7 +1,7 @@
-# One-time environment setup (run from the project folder in PowerShell)
+# One-time environment setup 
 $ErrorActionPreference = "Stop"
 python -m venv .venv
-# Avast intercepts HTTPS on this machine; point pip at its CA bundle so downloads verify.
+
 @"
 [global]
 cert = C:\ProgramData\Avast Software\Avast\wscert.pem
