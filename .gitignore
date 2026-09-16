@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+models/*.pt
+!models/best.pt
+outputs/
+samples/*.mp4
+runs/
+*.log
+yolov8n.pt
+data/ppe/*.zip
+weights/
